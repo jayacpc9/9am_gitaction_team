@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix, precision_score, f1_score, recall_
 sns.set(style='white')
 
 # Load Data
-file_path ="/Users/chandra/Desktop/FSDS_GenAI_Training/FSDS_Classes/Python_Workspace/CICD/iris.csv"
+file_path ="iris.csv"
 dataset = pd.read_csv(file_path)
 
 # Feature names (Ensure no extra spaces or parentheses)
